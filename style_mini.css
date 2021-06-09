@@ -201,7 +201,7 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    color: rgb(0 0 0 / 67%);
 }
 
 .d-bloc .panel button:hover,
@@ -371,9 +371,29 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contact_footer{
+    color: white;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#widgettitle{
+    color: white!important;
+}
+.contact_footer a{
+    color: white!important;
     
 }
-
+.contact_footer ul{
+    list-style: none;
+}
+.nav_footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -712,8 +732,7 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    width: 100%;
 }
 
 h2 {
