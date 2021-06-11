@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="style_mini.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
@@ -78,31 +78,22 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="name">Nom</label>
+						<input type="text" id="name" placeholder="Entrez votre nom et prénom" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="name">Adresse email</label>
+						<input type="email" id="email" placeholder="Entrez votre adresse email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<label for="info">Comment nous avez-vous connnu ?</label>
+						<input type="text" placeholder="Racontez-nous" class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea name="message" id="message" placeholder="Entrez votre message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
-					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
-					</button>
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit"  value="Envoyer">Envoyer</button>
 				</form>
 			</div>
 			<div class="col-sm-6">
@@ -149,34 +140,7 @@
 							<a class="social" href="https://www.instagram.com/?hl=fr"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-				</div>
-				<div class="contact_footer">
-					<div class="nav_footer">
-						<a href="contact.html"><h3 id="widgettitle">Contact</h3></a>
-						<ul>
-						<li><a href="mailto:contact@lachouetteagence.com">contact@lachouetteagence.com</a></li>
-						<li>2 place Sathonay 69001 Lyon</li>
-						<li>Ouvert de 9h à 18h, du lundi au vendredi</li>
-						</ul>
-					</div>
-					<div class="nav_footer">
-						<a href="#services"><h3 id="widgettitle">Nos services</h3></a>
-						<ul>
-							<li><a href="#services">Web design</a></li>
-							<li><a href="#services">Stratégie</a></li>
-							<li><a href="#services">Illustrations</a></li>
-						</ul>
-					</div>
-					<div class="nav_footer">
-						<a href="#portofolio"><h3 id="widgettitle">Nos réalisations</h3></a>
-						<ul>
-							<li><a href="#portofolio">Refonte de site web</a></li>
-							<li><a href="#portofolio">Création de nouveau site</a></li>
-							<li><a href="#portofolio">Conception de site</a> </li>
-						</ul>
-					</div>
 				
-		</div>
 	</div>
 </div>
 
