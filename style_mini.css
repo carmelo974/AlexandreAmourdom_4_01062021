@@ -372,9 +372,10 @@ a:hover {
     align-items: center;
 }
 .navbar-brand p{
-    font-family: "helvetica";
+    font-family: 'Viaoda Libre', cursive;
     padding-top: 20px;
-    font-size: 25px;
+    font-size: 30px;
+    color: black!important;
 }
 .col-sm-12_presentation{
     display: flex;
