@@ -371,8 +371,8 @@ a:hover {
     display: flex;
     align-items: center;
 }
-.navbar-brand p{
-    font-family: 'Viaoda Libre', cursive;
+.navbar-header p{
+    font-family: 'Viaoda Libre',cursive;
     padding-top: 20px;
     font-size: 25px;
     color: black!important;
@@ -622,10 +622,10 @@ a[data-lightbox]:hover img {
     padding: 20px;
     color: #FFF;
     background: rgba(0, 0, 0, .5);
-    position: absolute;
     left: 15px;
     right: 15px;
     bottom: 5px;
+    text-align: center;
 }
 
 .close-lightbox {
@@ -687,7 +687,7 @@ h3,
 h4,
 h5,
 h6,
-p,
+p, 
 label,
 .btn,
 a {
@@ -782,7 +782,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
