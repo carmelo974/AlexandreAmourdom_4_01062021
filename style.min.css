@@ -371,9 +371,9 @@ a:hover {
     display: flex;
     align-items: center;
 }
-.navbar-header p{
+.navbar-brand h1 {
     font-family: 'Viaoda Libre',cursive;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     font-size: 25px;
     color: black!important;
 }
@@ -719,7 +719,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -890,13 +890,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
