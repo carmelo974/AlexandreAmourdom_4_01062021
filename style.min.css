@@ -558,7 +558,6 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -569,7 +568,6 @@ button {
 
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
 }
 
 a[data-lightbox] {
@@ -597,7 +595,6 @@ a[data-lightbox]:hover::before {
 }
 
 a[data-lightbox]:hover img {
-    opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
 }
@@ -639,13 +636,11 @@ a[data-lightbox]:hover img {
     border: none;
     line-height: 30px;
     padding: 0 9px 5px;
-    opacity: 0.3;
 }
 
 .close-lightbox:hover,
 .next-lightbox:hover,
 .prev-lightbox:hover {
-    opacity: 1.0;
     color: #FFF;
 }
 
@@ -658,7 +653,6 @@ a[data-lightbox]:hover img {
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
 }
 
 .next-lightbox {
